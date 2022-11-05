@@ -1,0 +1,395 @@
+body {
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.videoimg {
+    position: relative;
+}
+
+.videoimg i {
+    position: absolute;
+    top: 157px;
+    left: 245px;
+    color: white;
+}
+
+.r_navbar {
+    width: 100%;
+    float: left;
+    min-height: 70px;
+}
+
+.goldencrown {
+    padding: 10px 0px;
+    width: 20%;
+    float: left;
+    min-height: inherit;
+    background-color: transparent;
+}
+
+.r_menu {
+    width: 60%;
+    float: left;
+    min-height: inherit;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    padding-bottom: 3px;
+}
+
+.r_menu::after {
+    content: "";
+    position: absolute;
+    width: 88%;
+    height: 2px;
+    background-color: #25347666;
+    bottom: 0px;
+    left: 263px;
+}
+
+.basic ul li {
+    font-family: "Zilla Slab";
+}
+
+.mushroomright p::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: #F4F5F7;
+    bottom: 67px;
+    left: 55px;
+    width: 520px;
+}
+
+.newzeland {
+    width: 20%;
+    float: left;
+    min-height: 70px;
+    background: #253476;
+    position: relative;
+    color: white;
+}
+
+.r_menu ul {
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.r_menu ul:hover {
+    cursor: pointer;
+}
+
+.r_menu ul li {
+    float: left;
+    list-style-type: none;
+    padding: 0px 0px 0px 10px;
+    margin: 5px 15px;
+    border-bottom: 2px solid transparent;
+    line-height: 30px;
+
+}
+
+.newzeland span {
+    padding: 10px 12px;
+    width: 60%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: "Zilla Slab";
+    font-size: 15px;
+}
+
+.basic ul li a {
+    font-size: Zilla Slab;
+}
+
+.r_menu ul li:hover {
+    border-bottom: 2px solid #27AE60;
+    margin-bottom: -2px;
+    padding-bottom: 7px;
+}
+
+.header {
+    width: 100%;
+    min-height: 20px;
+    background: #F4F5F7;
+    float: left;
+}
+
+.middle {
+    width: 100%;
+    height: 200px;
+    background: #F4F5F7;
+    background-size: cover;
+}
+
+img {
+    padding-top: 0px;
+    float: left;
+}
+
+.videoimg img {
+    padding-top: 20px;
+}
+
+.mushroomright {
+    float: left;
+    width: 40%;
+    min-height: 120px;
+    position: relative;
+    font-family: "Zilla Slab";
+
+}
+
+.mushroomright h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    padding: 35px 0px 50px 55px;
+}
+
+.mushroomright span {
+    font-weight: 600;
+}
+
+p {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    /* font-weight: 600; */
+    font-size: 18px;
+    line-height: 22px;
+    padding: 30px 0px 0px 55px;
+}
+
+h4 {
+    padding: 25px 0px 0px 55px;
+}
+
+p span:last-child {
+    padding-left: 15px;
+    color: #27AE60;
+}
+
+i {
+    padding-left: 10px;
+}
+
+.middle p {
+    padding: 25px;
+    padding-left: 55px;
+}
+
+h5 {
+    font-size: 20px;
+    width: 40%;
+    text-align: block;
+}
+
+.receptword {
+    float: none;
+    width: 100%;
+    font-family: "Zilla Slab";
+
+}
+
+.receptword ul {
+    padding: 15px 0px 25px 30px;
+    margin: 0px;
+}
+
+.receptword ul li {
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.receptword h1 {
+    font-weight: 600;
+}
+
+ul:first-child {
+    font-weight: 700;
+}
+
+.receptword h1 {
+    font-size: 25px;
+    padding-left: 29px;
+}
+
+.receptsentence {
+    float: inline-start;
+    padding: 16px;
+    width: 100%;
+    padding-right: 15px;
+    font-family: "Zilla Slab";
+    background-color: #F4F5F7;
+}
+
+.receptsentence h6 {
+    font-weight: 600;
+}
+
+.receptsentence ul li {
+    list-style-type: none;
+    font-weight: 600;
+}
+
+h6 {
+    padding-bottom: 10px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.bottom {
+    font-family: "Zilla Slab";
+    position: relative;
+}
+
+.bottom::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: #F4F5F7;
+    bottom: 25px;
+    left: 0;
+    min-width: 1142px;
+
+
+}
+
+.all {
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.other {
+    cursor: pointer;
+}
+
+.images {
+    width: 100%;
+    min-height: 300px;
+}
+
+.images img {
+    float: left;
+    width: 50%;
+}
+
+.imagesword {
+    float: left;
+    width: 50%;
+    font-family: "Zilla Slab";
+}
+
+.imagesword h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 25px;
+    color: #3E3E3E;
+    margin-bottom: 0px;
+}
+
+.imagesword p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #858585;
+    opacity: 0.8;
+    width: 97%;
+    font-family: "Zilla Slab";
+    padding-left: 25px;
+    padding-right: 10px;
+
+}
+
+.receptword {
+    width: 30%;
+    position: relative;
+    float: left;
+    margin: 0px
+}
+
+.fa-telegram {
+    color: green;
+    cursor: pointer;
+}
+
+.fa-whatsapp {
+    cursor: pointer;
+
+
+}
+
+.fa-facebook-square {
+    cursor: pointer;
+
+}
+
+.fa-play-circle {
+    cursor: pointer;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.other {
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.all {
+    text-decoration: underline;
+}
+
+.receptword::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 161px;
+    background-color: #D7D8DA;
+    bottom: -6px;
+    left: 293px;
+    bottom: 25px;
+}
+
+.recept {
+    padding-top: 25px;
+}
+
+.mushroom {
+    display: none;
+}
+
+
+.logo i {
+    display: none;
+}
+
+.iconvideo {
+    display: none;
+}
+
+.prepare {
+    background-color: white;
+
+}
